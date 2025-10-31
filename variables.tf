@@ -8,11 +8,11 @@ variable "environment"{
 
 variable "sg_name"{
     type = string
+    
 }
 
 variable "sg_description"{
-    type = list(any)
-    default = ""
+    default = " "
     
 }
 
