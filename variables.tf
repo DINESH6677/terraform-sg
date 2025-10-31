@@ -11,6 +11,7 @@ variable "sg_name"{
 }
 
 variable "sg_description"{
+    type = list(any)
     default = ""
     
 }
